@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:#006241;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+header{
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    line-height: 20px;
+    background-color: #006241;
+    border-bottom: 1px solid black;
+}
+
+.logo {
+    width: 150px;
+    cursor: pointer;
+}
+
+a{
+    /*Elimino la bullet*/
+    color: white;
+    list-style-type: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+h1{
+    margin: 10px;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    text-decoration: underline;
+}
+
+p{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 20px;
+    font-weight: bold;
+    margin: 10px;
+    text-align: center;
+}
+
+h2{
+    padding: 10px;
+    color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+h3 {
+    color: black;
+    padding: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.imgMenu {
+    width: 200px;
+}
+
+
+
+.psyduckcreator {
+    text-align: center;
+    padding-top: 35%;
+    padding-right: 10%;
+    width: 100%;
+    display: block;
+}
+
+
+@media (max-width: 768px) {
+    .row {
+      flex-direction: column;
+    }
+  
+    .col-6 {
+      width: 90%;
+    }
+  
+    .col-4 {
+      width: 90%;
+    }
+
+    .col-2 {
+        width: 50%;
+    }
+  
+}
+
+
+div {
+    text-align: center;
+}
+
+h4 {
+    padding: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+}
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid grey; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px;
+    resize: vertical 
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #1d6821;
+  }
+  
+  .containerForm {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+  .testimonios {
+    width: 500px;
+  }
+  .testimoniostyle{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    font-style: italic;
+     margin: 10px;
+     text-align: center;
+  }
+
+p {
+    color: white;
+}
+
